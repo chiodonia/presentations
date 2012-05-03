@@ -54,3 +54,9 @@ Presentazione
 _____________
    * http://www.sitepoint.com/5-free-html5-presentation-systems/
    * http://stackoverflow.com/questions/2533908/basic-framework-for-presentations-using-html5-javascript
+
+
+NOTES
+----
+   * http://try.dartlang.org
+   * dart ${DART_HOME}/lib/dartdoc/dartdoc.dart BinaryTree.dart
