@@ -21,13 +21,10 @@ Agenda
 
 <img src="https://github.com/chiodonia/presentations/raw/master/dart/workinprogress.jpeg" alt="Work in progress"><img>
 
----
-Introduction
-============
 
 ---
 
-Facs
+Introduction: Facts
 ====
 
 There is an increasing interest for complex modern Web applications:
@@ -39,7 +36,8 @@ There is an increasing interest for complex modern Web applications:
 And the plug-in era is over!
 
 ---
-State of the Web
+
+Introduction: State of the Web
 ================
 
    * Good parts
@@ -59,7 +57,7 @@ State of the Web
        * Slow startup (see http://stevesouders.com/)
 
 ---
-JavaScript momentum
+Introduction: JavaScript momentum
 ===================
 
    * JavaScript is "better" than ever:
@@ -78,7 +76,7 @@ JavaScript momentum
 
 ---
 
-Google Dart
+Introduction: Google Dart
 ===========
 
    * Improve the state of the art of Web programming:
@@ -120,7 +118,7 @@ The goal is to provide a rich set of libs:
 
 ---
 
-dart:core
+The Dart libraries: dart:core
 =========
 
    * Imported by default
@@ -131,7 +129,7 @@ dart:core
     
 ---
 
-dart:html
+The Dart libraries: dart:html
 =========
 
    * A clean DOM API with:
@@ -151,7 +149,7 @@ dart:html
 
 ---
 
-dart:io
+The Dart libraries: dart:io
 =======
 
   * http://www.dartlang.org/articles/io/
@@ -195,5 +193,9 @@ Discussion
 
 Tanks for you attention
 =======================
-Samples: https://github.com/chiodonia/dartlang
----
+Samples: 
+
+   * https://github.com/syjer/weakdot
+   * https://github.com/chiodonia/dartlang
+
+
