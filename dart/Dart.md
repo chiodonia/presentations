@@ -19,6 +19,9 @@ Agenda
 
 ---
 
+<img src="workinprogress.jpeg" alt="Work in progress"><img>
+
+---
 Introduction
 ============
 
@@ -29,9 +32,11 @@ Facs
 
 There is an increasing interest for complex modern Web applications:
 
-   * HTML5 addressing application's requirements
    * Increasing customer requirements
+   * HTML5 pushing the boundaries
    * Device diversification (mobile devices)
+
+And the plug-in era is over!
 
 ---
 State of the Web
@@ -65,10 +70,11 @@ JavaScript momentum
      * API (HTML5 and Web API)
      * Virtual machine (Google V8)
 
-   * … but the language still have some issues
+   * … but can JavaScript play this role?
      * http://wtfjs.com/
      * https://www.destroyallsoftware.com/talks/wat
-     * http://www.infoq.com/presentations/JavaScript-Today-and-Tomorrow
+     * Allen Wirfs-Brock (Mozilla), http://www.infoq.com/presentations/JavaScript-Today-and-Tomorrow
+
 
 ---
 
@@ -95,6 +101,7 @@ The Dart language
      * familiar to the mainstream programmers
      * efficiently compile to JS (GWT )
    * http://www.dartlang.org/articles/style-guide/
+
 ---
 
 The Dart libraries
@@ -102,36 +109,46 @@ The Dart libraries
 
 
     Libraries help you create a modular and shareable code base. Libraries not only provide APIs, but are a unit of privacy: they can hide implementation details such as private variables.
-From http://www.dartlang.org/language-tour/#libraries
-
-### Libraries and the module system (http://goo.gl/jml49) is a work in progress!
-
-<img src="workinprogress.jpeg" alt="Work in progress"><img>
+Source: http://www.dartlang.org/language-tour/#libraries
 
 The goal is to provide a rich set of libs: 
 
    * http://api.dartlang.org/
    * http://dartwatch.com/index.php/dart-packages/
 
+**Libraries and a module system (http://goo.gl/jml49) are a work in progress!**
+
 ---
 
 dart:core
 =========
+
+   * Imported by default
+   * Defines:
+     * Interfaces for the core types: num, Collection, Function, String,..
+     * Exceptions
+   * see http://api.dartlang.org/dart_core.html
+    
 ---
 
 dart:html
 =========
----
 
-dart:json
-=========
+   * A clean DOM API with:
+     * Simpler names: 
+       * HTMLElement -> Element
+     * Better querying: 
+       * elem.getElementById('foo'); -> elem.query('#foo');
+       * elem.getElementsByTagName('div'); -> elem.queryAll('div');
+   * Use real collections
+       * elem.getAttribute('name'); -> elem.attributes['name'];
+   * Use constructors
+       * document.createElement('div'); -> new Element.tag('div');
+   * Events
+       * elem.addEventListener('click', (event) => print('click!'), false); -> elem.on.click.add((event) => print('click!'));
 
-  * http://www.dartlang.org/articles/improving-the-dom/
+   * see http://api.dartlang.org/html.html, http://www.dartlang.org/articles/improving-the-dom/
 
----
-
-dart:uri
-========
 ---
 
 dart:io
@@ -147,10 +164,7 @@ dart:io
      * V8 style
      * embeddable 
 
----
-
-dart:isolate
-============
+   * see http://api.dartlang.org/io.html
 ---
 
 
@@ -181,5 +195,5 @@ Discussion
 
 Tanks for you attention
 =======================
-
+Samples: https://github.com/chiodonia/dartlang
 ---
