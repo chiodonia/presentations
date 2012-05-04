@@ -19,7 +19,7 @@ Agenda
 
 ---
 
-<img src="workinprogress.jpeg" alt="Work in progress"><img>
+<img src="https://github.com/chiodonia/presentations/raw/master/dart/workinprogress.jpeg" alt="Work in progress"><img>
 
 ---
 Introduction
