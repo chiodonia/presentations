@@ -20,7 +20,7 @@ Agenda
 ---
 
 <div align="center">
-<img src="https://github.com/chiodonia/presentations/raw/master/dart/workinprogress.jpeg" alt="Work in progress"><img>
+<img src="https://github.com/chiodonia/presentations/raw/master/dart/workinprogress.jpeg" alt="Work in progress" width="50%"; style="padding-top:10%"><img>
 </div>
 
 ---
