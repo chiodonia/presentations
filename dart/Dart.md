@@ -19,13 +19,14 @@ Agenda
 
 ---
 
+<div align="center">
 <img src="https://github.com/chiodonia/presentations/raw/master/dart/workinprogress.jpeg" alt="Work in progress"><img>
-
+</div>
 
 ---
 
 Introduction: Facts
-====
+===================
 
 There is an increasing interest for complex modern Web applications:
 
@@ -38,7 +39,7 @@ And the plug-in era is over!
 ---
 
 Introduction: State of the Web
-================
+==============================
 
    * Good parts
      * Easy to write small-medium apps
@@ -57,8 +58,9 @@ Introduction: State of the Web
        * Slow startup (see http://stevesouders.com/)
 
 ---
+
 Introduction: JavaScript momentum
-===================
+=================================
 
    * JavaScript is "better" than ever:
      * Frameworks (jQuery, MVC, ...)
@@ -73,15 +75,15 @@ Introduction: JavaScript momentum
      * https://www.destroyallsoftware.com/talks/wat
      * Allen Wirfs-Brock (Mozilla), http://www.infoq.com/presentations/JavaScript-Today-and-Tomorrow
 
-
 ---
 
 Introduction: Google Dart
-===========
+=========================
 
    * Improve the state of the art of Web programming:
 
         It would be easier! Dart: a new language and platform for web programming.
+Source: http://www.dartlang.org/
 
    * Brand new: October 2011!
    * Lincese: Open Source, BSD
@@ -105,7 +107,6 @@ The Dart language
 The Dart libraries
 ==================
 
-
     Libraries help you create a modular and shareable code base. Libraries not only provide APIs, but are a unit of privacy: they can hide implementation details such as private variables.
 Source: http://www.dartlang.org/language-tour/#libraries
 
@@ -119,7 +120,7 @@ The goal is to provide a rich set of libs:
 ---
 
 The Dart libraries: dart:core
-=========
+=============================
 
    * Imported by default
    * Defines:
@@ -130,7 +131,7 @@ The Dart libraries: dart:core
 ---
 
 The Dart libraries: dart:html
-=========
+=============================
 
    * A clean DOM API with:
      * Simpler names: 
@@ -150,7 +151,7 @@ The Dart libraries: dart:html
 ---
 
 The Dart libraries: dart:io
-=======
+===========================
 
   * http://www.dartlang.org/articles/io/
 
@@ -163,6 +164,7 @@ The Dart libraries: dart:io
      * embeddable 
 
    * see http://api.dartlang.org/io.html
+
 ---
 
 
