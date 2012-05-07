@@ -144,6 +144,7 @@ The Dart libraries: dart:core
      * Interfaces for the core types: num, Collection, Function, String,..
      * Exceptions
    * Imported by default
+   * Both client and server
    * see http://api.dartlang.org/dart_core.html
     
 ---
@@ -152,8 +153,10 @@ The Dart libraries: dart:io
 ===========================
 
    * http://www.dartlang.org/articles/io/
-
-
+   * Mainly (HttpClient available) for the server side 
+   * Dart is a single-threaded programming language -> **non blocking I/O operations**, inspired by node.js
+    * Dart VM runs in an event loop with an associated event queue of pending asynchronous operations
+    * The VM terminates when it has executed the current code to completion and no more pending operations are in the queue
    * see http://api.dartlang.org/io.html
 
 ---
