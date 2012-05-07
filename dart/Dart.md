@@ -13,6 +13,7 @@ Agenda
 ======
    * Introduction
    * The Dart language
+   * How to run Dart
    * The Dart libraries
    * Conclusion
    * Discussion
@@ -89,6 +90,7 @@ Source: http://www.dartlang.org/
    * Lincese: Open Source, BSD
    * Developed "on the open": http://www.dartlang.org/docs/spec/
    * An entire platform: language, libraries and tools (<a href="http://www.dartlang.org/docs/getting-started/editor/">Dart Editor</a>)
+   * Run on the **client** and the **server**
    * Lear from the part: GWT, V8, speed
    * Make it available to the entire modern Web
 
@@ -101,6 +103,22 @@ The Dart language
      * familiar to the mainstream programmers
      * efficiently compile to JS (GWT )
    * http://www.dartlang.org/articles/style-guide/
+
+---
+
+How to run Dart
+===============
+
+   * on the **Browser**
+    * Dart-to-JavaScript compiler: http://www.dartlang.org/docs/getting-started/editor/
+    * Chromium with the Dart VM: http://www.dartlang.org/dartium/ 
+   * on the **Server**
+    * Dart VM: http://www.dartlang.org/docs/getting-started/sdk/
+     * High performance
+     * V8 style
+     * embeddable 
+
+http://www.dartlang.org/docs/technical-overview/#howtouse
 
 ---
 
@@ -122,12 +140,22 @@ The goal is to provide a rich set of libs:
 The Dart libraries: dart:core
 =============================
 
-   * Imported by default
    * Defines:
      * Interfaces for the core types: num, Collection, Function, String,..
      * Exceptions
+   * Imported by default
    * see http://api.dartlang.org/dart_core.html
     
+---
+
+The Dart libraries: dart:io
+===========================
+
+   * http://www.dartlang.org/articles/io/
+
+
+   * see http://api.dartlang.org/io.html
+
 ---
 
 The Dart libraries: dart:html
@@ -149,24 +177,6 @@ The Dart libraries: dart:html
    * see http://api.dartlang.org/html.html, http://www.dartlang.org/articles/improving-the-dom/
 
 ---
-
-The Dart libraries: dart:io
-===========================
-
-  * http://www.dartlang.org/articles/io/
-
-  * Execution: http://www.dartlang.org/docs/technical-overview/#howtouse
-   * Dart-to-JavaScript compiler: http://www.dartlang.org/docs/getting-started/editor/
-   * Chromium with the Dart VM: http://www.dartlang.org/dartium/ 
-   * Dart VM: http://www.dartlang.org/docs/getting-started/sdk/
-     * High performance
-     * V8 style
-     * embeddable 
-
-   * see http://api.dartlang.org/io.html
-
----
-
 
 Conclusion
 ==========
