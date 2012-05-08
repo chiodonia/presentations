@@ -35,7 +35,7 @@ There is an increasing interest for complex modern Web applications:
    * HTML5 pushing the boundaries
    * Device diversification (mobile devices)
 
-And the plug-in era is over!
+And the **plug-in** era is over!
 
 ---
 
@@ -43,6 +43,7 @@ Introduction: State of the Web
 ==============================
 
    * Good parts
+
      * Easy to write small-medium apps
      * Platform independent
      * No app installation
@@ -50,12 +51,17 @@ Introduction: State of the Web
      * Platform improving fast
      * Everywhere
 
-	* Bad parts
-       * Development of large apps is challenging:
- 		  * Lack of structure
-		  * No static types
-		  * No support for libs (modularity)
-		  * Poor IDE support
+---
+
+Introduction: State of the Web (cont.)
+======================================
+
+   * Bad parts, Development of large apps is challenging:
+
+       * Lack of structure
+       * No static types
+       * No support for libs (modularity)
+       * Poor IDE support
        * Slow startup (see http://stevesouders.com/)
 
 ---
@@ -64,6 +70,7 @@ Introduction: JavaScript momentum
 =================================
 
    * JavaScript is "better" than ever:
+
      * Frameworks (jQuery, MVC, ...)
      * Community adopting "best parts" 
      * Some good tools (JSLint)
@@ -71,7 +78,13 @@ Introduction: JavaScript momentum
      * API (HTML5 and Web API)
      * Virtual machine (Google V8)
 
+---
+
+Introduction: Can JavaScript play the role?
+===========================================
+
    * … but can JavaScript play this role?
+
      * http://wtfjs.com/
      * https://www.destroyallsoftware.com/talks/wat
      * Allen Wirfs-Brock (Mozilla), http://www.infoq.com/presentations/JavaScript-Today-and-Tomorrow
@@ -81,15 +94,12 @@ Introduction: JavaScript momentum
 Introduction: Google Dart
 =========================
 
-   * Improve the state of the art of Web programming:
-
-        It would be easier! Dart: a new language and platform for web programming.
-Source: http://www.dartlang.org/
+ >  Improve the state of the art of Web programming!
 
    * Brand new: October 2011!
-   * Lincese: Open Source, BSD
+   * License: Open Source, BSD
    * Developed "on the open": http://www.dartlang.org/docs/spec/
-   * An entire platform: language, libraries and tools (<a href="http://www.dartlang.org/docs/getting-started/editor/">Dart Editor</a>)
+   * An entire platform: language, libraries and tools
    * Run on the **client** and the **server**
    * Lear from the part: GWT, V8, speed
    * Make it available to the entire modern Web
@@ -110,22 +120,23 @@ How to run Dart
 ===============
 
    * on the **Browser**
+
     * Dart-to-JavaScript compiler: http://www.dartlang.org/docs/getting-started/editor/
     * Chromium with the Dart VM: http://www.dartlang.org/dartium/ 
    * on the **Server**
+
     * Dart VM: http://www.dartlang.org/docs/getting-started/sdk/
      * High performance
      * V8 style
      * embeddable 
-
-http://www.dartlang.org/docs/technical-overview/#howtouse
 
 ---
 
 The Dart libraries
 ==================
 
-    Libraries help you create a modular and shareable code base. Libraries not only provide APIs, but are a unit of privacy: they can hide implementation details such as private variables.
+>Libraries help you create a modular and shareable code base. Libraries not only provide APIs, 
+>but are a unit of privacy: they can hide implementation details such as private variables.
 Source: http://www.dartlang.org/language-tour/#libraries
 
 The goal is to provide a rich set of libs: 
@@ -141,6 +152,7 @@ The Dart libraries: dart:core
 =============================
 
    * Defines:
+
      * Interfaces for the core types: num, Collection, Function, String,..
      * Exceptions
    * Imported by default
@@ -155,6 +167,7 @@ The Dart libraries: dart:io
    * Mainly (HttpClient available) for the server side 
    * HttpServer, HttpClient, File, Timer, Sockets, WebSockets, InputStream, OutputStream
    * Dart is a single-threaded programming language -> **non blocking I/O operations** (inspired by Node.js)
+
     * Dart VM runs in an event loop with an associated event queue of pending asynchronous operations
     * The VM terminates when it has executed the current code to completion and no more pending operations are in the queue
    * see http://api.dartlang.org/io.html
@@ -194,24 +207,30 @@ Discussion
 ==========
 
    * Matter of choice:
+
      * What about JavaScript as a "First language"?
      * And JavaScript as the assembler of the Web ("to JavaScript" **transpilers** )? Things like GWT, Dart, CoffeeScript, Closure compiler...
-   * What's the future for JavaScript?
    * Same language on both client and server (GWT, Node.js, Dart)
-   * What is your favorite Web architecture (JSF, classic MVC, REST)?
-   * How Dart compares to CoffeeScript?
    * What's happen to GWT?
-   * Is Dart solving the famous Java puzzlers? See http://www.dartlang.org/articles/puzzlers/chapter-1.html
-
-#### What Google says: http://www.dartlang.org/support/faq.html
 
 ---
 
-Tanks for you attention
-=======================
+Thanks for you attention
+========================
 Samples: 
 
    * https://github.com/syjer/weakdot
    * https://github.com/chiodonia/dartlang
 
+---
+
+Resources
+=========
+
+   * http://dartlang.org
+   * Specifications: http://www.dartlang.org/docs/spec/
+   * Is Dart solving the famous Java puzzlers? See http://www.dartlang.org/articles/puzzlers/chapter-1.html
+   * Style guides: http://www.dartlang.org/articles/style-guide/
+   * FAQ: http://www.dartlang.org/support/faq.html
+  
 
