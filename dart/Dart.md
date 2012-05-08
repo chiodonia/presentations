@@ -83,7 +83,7 @@ Introduction: JavaScript momentum
 Introduction: Can JavaScript play the role?
 ===========================================
 
-   * … but can JavaScript play this role?
+   * ... but can JavaScript play this role?
 
      * http://wtfjs.com/
      * https://www.destroyallsoftware.com/talks/wat
