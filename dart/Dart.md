@@ -169,6 +169,7 @@ Without type annotation:
 
     say(from, msg) => "$from says $msg";
 
+---
 
 The Dart language: Functions: optional parameters
 =================================================
@@ -220,6 +221,7 @@ As you would expect:
       print(add2(3)); // 5
     }
 
+---
 
 The Dart language: Strings with sugar
 =====================================
