@@ -140,7 +140,7 @@ The Dart language: familiarity
  - same keyword for control flow as you know (skipping the details).
  - generics (a simpler but unsound version, maybe more pragmatic? :) )
 
-
+---
 
 The Dart language: unfamiliarity for a java programmer
 ======================================================
