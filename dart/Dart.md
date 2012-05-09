@@ -177,20 +177,15 @@ The Dart libraries: dart:io
 The Dart libraries: dart:html
 =============================
 
-   * A clean DOM API with:
-     * Simpler names: 
-       * HTMLElement -> Element
-     * Better querying: 
-       * elem.getElementById('foo'); -> elem.query('#foo');
-       * elem.getElementsByTagName('div'); -> elem.queryAll('div');
-   * Use real collections
-       * elem.getAttribute('name'); -> elem.attributes['name'];
-   * Use constructors
-       * document.createElement('div'); -> new Element.tag('div');
-   * Events
-       * elem.addEventListener('click', (event) => print('click!'), false); -> elem.on.click.add((event) => print('click!'));
+   * A clean DOM API
 
-   * see http://api.dartlang.org/html.html, http://www.dartlang.org/articles/improving-the-dom/
+     * **Simpler names**: HTMLElement -> Element
+     * **Better querying**: elem.getElementById('foo'); -> elem.query('#foo');
+     * **Use real collections**: elem.getAttribute('name'); -> elem.attributes['name'];
+     * **Use constructors**: document.createElement('div'); -> new Element.tag('div');
+     * **Events**: elem.addEventListener('click', (event) => print('click!'), false); -> elem.on.click.add((event) => print('click!'));
+
+   * see http://api.dartlang.org/html.html
 
 ---
 
